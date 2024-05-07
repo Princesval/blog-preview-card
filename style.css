@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(244, 208, 78);
+    font-family: 'Figtree';
+}
+
+main {
+    max-width: 350px;
+    min-width: 200px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 160px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    display: inline;
+    background-color: rgb(244, 208, 78);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+aside {
+    margin-top: 20px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+h1:hover {
+    color: rgb(244, 208, 78);
+    transition: 0.4s;
+}
+
+p {
+    color: hsl(0, 0%, 50%);
+}
+
+.cont {
+    display: flex;
+}
+
+.box-greg > img {
+    max-width:80%;
+    margin-bottom: 0;
+}
+
+.box > p{
+    padding: 20px 20px 0px 0px;
+    font-weight: 800;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    font-weight: 800;
+}
